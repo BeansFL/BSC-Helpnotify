@@ -52,4 +52,4 @@ Save and restart the server after it.
 
 For supportquestions or to get your customer role you have to join our discord:
 
-https://discord.gg/GJDqT9R4c5
+https://discord.gg/bsc-studios
