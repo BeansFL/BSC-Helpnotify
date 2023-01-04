@@ -5,7 +5,7 @@ heres a small installation:
 Go to Es_extended -> client folder -> functions.lua
 
 There you have to replace :
-
+```
 function ESX.ShowHelpNotification(msg, thisFrame, beep, duration)
     AddTextEntry('esxHelpNotification', msg)
 
@@ -19,11 +19,11 @@ function ESX.ShowHelpNotification(msg, thisFrame, beep, duration)
         EndTextCommandDisplayHelp(0, false, beep, duration or -1)
     end
 end
-
+```
 
 
 With this code:
-
+```
 function ESX.ShowHelpNotification(msg, thisFrame, beep, duration)
     exports['bschelp']:showHelpNotification()
     function ESX.ShowHelpNotification(msg, thisFrame, beep, duration)
@@ -32,7 +32,12 @@ function ESX.ShowHelpNotification(msg, thisFrame, beep, duration)
 end
 
 
+```
 
+If you dont want to do that you can simply use the export
+```
+exports['bschelp']:showHelpNotification()
+```
 
 
 Use another color: To use another color simply go into your css folder and change the name of the color you want to "Overlay"
