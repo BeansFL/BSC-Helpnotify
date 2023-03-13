@@ -3,7 +3,7 @@ function showHelpNotification()
         SendNUIMessage({
             action = 'showHelpNotification',
         })
-        Citizen.Wait(10)
+        Wait(0)
         hideHelpNotification()
     end)
 end
