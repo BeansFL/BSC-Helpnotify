@@ -1,5 +1,5 @@
 function showHelpNotification()
-    Citizen.CreateThread(function()
+    CreateThread(function()
         SendNUIMessage({
             action = 'showHelpNotification',
         })
