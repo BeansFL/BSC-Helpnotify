@@ -25,10 +25,7 @@ end
 With this code:
 ```
 function ESX.ShowHelpNotification(msg, thisFrame, beep, duration)
-    exports['bschelp']:showHelpNotification()
-    function ESX.ShowHelpNotification(msg, thisFrame, beep, duration)
-        exports['bschelp']:showHelpNotification()
-    end
+    exports['bsc-helpnotify']:showHelpNotification()
 end
 
 
