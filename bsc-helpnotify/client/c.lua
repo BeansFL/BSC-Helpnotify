@@ -3,7 +3,7 @@ function showHelpNotification()
         SendNUIMessage({
             action = 'showHelpNotification',
         })
-        Wait(0)
+        Wait(300)
         hideHelpNotification()
     end)
 end
